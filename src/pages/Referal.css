@@ -1,9 +1,6 @@
 body {
     width: 100%;
     margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    overflow-x: hidden;
 }
 
 .header {
@@ -157,7 +154,9 @@ body {
 }
 
 .overlaytext-1 {
-    left: 140px;
+    left: 260px;
+    display: flex;
+    flex-direction: column;
 }
 
 .overlaytext-2 .refer-user-icon {
@@ -167,19 +166,20 @@ body {
 }
 
 .overlaytext-1 .refer-user-icon {
-    margin-left: 43px;
     font-size: 40px;
     color: blue;
 }
 
 .overlaytext-3 .refer-user-icon {
-    margin-left: 600px;
     font-size: 40px;
     color: blue;
 }
 
-.overlaytext-3 p {
-    margin-left: 550px;
+
+.overlaytext-3 {
+    right: 280px;
+    display: flex;
+    flex-direction: column;
 }
 
 
