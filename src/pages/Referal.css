@@ -1,13 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     overflow-x: hidden;
