@@ -66,7 +66,7 @@ const Referral = () => {
         e.preventDefault();
         if (validate()) {
             setloading(true);
-            axios.post('http://localhost:3001/api/referral', form)
+            axios.post('https://accredian-backend-task-2-j0qt.onrender.com/api/referral', form)
                 .then(response => {
                     console.log(response.data);
                     alert("Referral submitted successfully, check email !");
